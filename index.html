@@ -623,20 +623,20 @@
 
 <script>
   const products = [
-    { id:1, img:'chili.png',     tag:'Hot & Bold',    name:'Red Chili Powder',       desc:'Sun-dried Bogura red chili, ground to a vibrant fine powder.',        price:120, unit:'200g' },
-    { id:1, img:'chili.png',     tag:'Hot & Bold',    name:'Red Chili Powder',       desc:'Sun-dried Bogura red chili, ground to a vibrant fine powder.',        price:450, unit:'600g' },
-    { id:1, img:'chili.png',     tag:'Hot & Bold',    name:'Red Chili Powder',       desc:'Sun-dried Bogura red chili, ground to a vibrant fine powder.',        price:750, unit:'1kg' },
-    { id:2, img:'turmeric.png',  tag:'Golden Spice',  name:'Turmeric Powder',        desc:'Deep-yellow Sylheti turmeric with high curcumin content.',            price:120,  unit:'200g' },
-    { id:2, img:'turmeric.png',  tag:'Golden Spice',  name:'Turmeric Powder',        desc:'Deep-yellow Sylheti turmeric with high curcumin content.',            price:360,  unit:'600g' },
-    { id:2, img:'turmeric.png',  tag:'Golden Spice',  name:'Turmeric Powder',        desc:'Deep-yellow Sylheti turmeric with high curcumin content.',            price:600,  unit:'1kg' },
-    { id:3, img:'coriander.png', tag:'Warm & Earthy', name:'Coriander Powder',       desc:'Freshly milled coriander seeds for a citrusy, nutty finish.',        price:40,  unit:'100g' },
-    { id:3, img:'coriander.png', tag:'Warm & Earthy', name:'Coriander Powder',       desc:'Freshly milled coriander seeds for a citrusy, nutty finish.',        price:80,  unit:'200g' },
-    { id:3, img:'coriander.png', tag:'Warm & Earthy', name:'Coriander Powder',       desc:'Freshly milled coriander seeds for a citrusy, nutty finish.',        price:240,  unit:'600g' },
-    { id:4, img:'cumin.png',     tag:'Rich & Smoky',  name:'Cumin Powder',           desc:'Slow-roasted cumin for a warm, smoky kitchen aroma.',                price:120,  unit:'100g' },
-   { id:4, img:'cumin.png',     tag:'Rich & Smoky',  name:'Cumin Powder',           desc:'Slow-roasted cumin for a warm, smoky kitchen aroma.',                price:240,  unit:'200g' },
-   { id:4, img:'cumin.png',     tag:'Rich & Smoky',  name:'Cumin Powder',           desc:'Slow-roasted cumin for a warm, smoky kitchen aroma.',                price:480,  unit:'400g' },
-    { id:6, img:'.png',  tag:'Signature Mix', name:'Troika Biryani Blend',   desc:'Our house masala — a closely guarded, perfectly balanced mix.',      price:180, unit:'250g' },
-  ];
+  { id:1,  img:'chili.png',     tag:'Hot & Bold',    name:'Red Chili Powder',      desc:'Sun-dried Bogura red chili, ground to a vibrant fine powder.',       price:120, unit:'200g' },
+  { id:2,  img:'chili.png',     tag:'Hot & Bold',    name:'Red Chili Powder',      desc:'Sun-dried Bogura red chili, ground to a vibrant fine powder.',       price:450, unit:'600g' },
+  { id:3,  img:'chili.png',     tag:'Hot & Bold',    name:'Red Chili Powder',      desc:'Sun-dried Bogura red chili, ground to a vibrant fine powder.',       price:750, unit:'1kg' },
+  { id:4,  img:'turmeric.png',  tag:'Golden Spice',  name:'Turmeric Powder',       desc:'Deep-yellow Sylheti turmeric with high curcumin content.',           price:120, unit:'200g' },
+  { id:5,  img:'turmeric.png',  tag:'Golden Spice',  name:'Turmeric Powder',       desc:'Deep-yellow Sylheti turmeric with high curcumin content.',           price:360, unit:'600g' },
+  { id:6,  img:'turmeric.png',  tag:'Golden Spice',  name:'Turmeric Powder',       desc:'Deep-yellow Sylheti turmeric with high curcumin content.',           price:600, unit:'1kg' },
+  { id:7,  img:'coriander.png', tag:'Warm & Earthy', name:'Coriander Powder',      desc:'Freshly milled coriander seeds for a citrusy, nutty finish.',       price:40,  unit:'100g' },
+  { id:8,  img:'coriander.png', tag:'Warm & Earthy', name:'Coriander Powder',      desc:'Freshly milled coriander seeds for a citrusy, nutty finish.',       price:80,  unit:'200g' },
+  { id:9,  img:'coriander.png', tag:'Warm & Earthy', name:'Coriander Powder',      desc:'Freshly milled coriander seeds for a citrusy, nutty finish.',       price:240, unit:'600g' },
+  { id:10, img:'cumin.png',     tag:'Rich & Smoky',  name:'Cumin Powder',          desc:'Slow-roasted cumin for a warm, smoky kitchen aroma.',               price:120, unit:'100g' },
+  { id:11, img:'cumin.png',     tag:'Rich & Smoky',  name:'Cumin Powder',          desc:'Slow-roasted cumin for a warm, smoky kitchen aroma.',               price:240, unit:'200g' },
+  { id:12, img:'cumin.png',     tag:'Rich & Smoky',  name:'Cumin Powder',          desc:'Slow-roasted cumin for a warm, smoky kitchen aroma.',               price:480, unit:'400g' },
+  { id:13, img:'biryani.png',   tag:'Signature Mix', name:'Troika Biryani Blend',  desc:'Our house masala — a closely guarded, perfectly balanced mix.',     price:180, unit:'250g' },
+];
 
   // Render products
   const grid = document.getElementById('productsGrid');
